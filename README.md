@@ -503,9 +503,11 @@ Potential improvements include:
 
 ## Author
 
-Athul Babu
+## Author
 
-- GitHub: `https://github.com/athulbabu123/`
-- LinkedIn: `https://www.linkedin.com/in/athulbabu123/`
+**Athul Babu**
+
+- **GitHub:** [athulbabu123](https://github.com/athulbabu123/)
+- **LinkedIn:** [Athul Babu](https://www.linkedin.com/in/athulbabu123/)
 
 ---
