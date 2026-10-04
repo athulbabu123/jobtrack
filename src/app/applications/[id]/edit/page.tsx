@@ -1,6 +1,7 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import EditApplicationForm from "@/components/EditApplicationForm";
 import { prisma } from "@/lib/prisma";
+import { getCurrentUser } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
@@ -9,9 +10,16 @@ type EditApplicationPageProps = {
 };
 
 export default async function EditApplicationPage({ params }: EditApplicationPageProps) {
+    const user = await getCurrentUser();
+
+    if (!user) {
+        redirect("/login");
+    }
     const { id } = await params;
-    const application = await prisma.application.findUnique({
-        where: { id },
+    const application = await prisma.application.findFirst({
+        where: { id,
+            userId: user.id,
+         },
         select: {
             id: true,
             company: true,
