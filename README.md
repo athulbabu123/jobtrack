@@ -8,7 +8,7 @@ Built with **Next.js, React, TypeScript, PostgreSQL, Prisma ORM, JWT authenticat
 
 ## Live Demo
 
-Add the deployed JobTrack URL here when one is available.
+[JobTrack](https://jobtrack-mj2z.onrender.com/)
 
 ---
 
