@@ -14,27 +14,27 @@ Add the deployed JobTrack URL here when one is available.
 
 ## Screenshots
 
-Add screenshots after capturing them from a running JobTrack instance. Suggested screenshots:
+
 
 ### Landing Page
 
-<!-- Add a screenshot, for example: ![JobTrack landing page](./docs/images/landing-page.png) -->
+![JobTrack landing page](./docs/images/landing-page.png)
 
 ### Dashboard
 
-<!-- Add a screenshot, for example: ![JobTrack dashboard](./docs/images/dashboard.png) -->
+![JobTrack dashboard](./docs/images/dashboard.png)
 
 ### Applications — Table View
 
-<!-- Add a screenshot, for example: ![Applications table](./docs/images/applications-table.png) -->
+![Applications table](./docs/images/applications-table.png)
 
 ### Applications — Kanban View
 
-<!-- Add a screenshot, for example: ![Applications kanban board](./docs/images/applications-kanban.png) -->
+![Applications kanban board](./docs/images/applications-kanban.png)
 
 ### Add Application
 
-<!-- Add a screenshot, for example: ![Add application form](./docs/images/add-application.png) -->
+![Add application form](./docs/images/add-application.png)
 
 ---
 
